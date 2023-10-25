@@ -18,3 +18,31 @@
   height: 300px;
   overflow: hidden;
 }
+
+
+
+
+.speed-test-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.speed-meter {
+  width:200px;
+  height:200px;
+  border: 5px solid #ccc;
+  border-radius: 50%;
+  position: relative;
+}
+
+.speed-needle {
+  width: 10px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  bottom: 50px;
+  left:95px;
+  transform-origin: 50% 100%;
+  transform: rotate(Odeg);
+  transition: transform ls ease-in-out;
+}
